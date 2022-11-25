@@ -1,0 +1,237 @@
+.section2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .section2 {
+        align-self: center;
+    }
+}
+
+.section2 .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.section2 .container .pokemons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 0;
+}
+.section2 .container .pokemons a {
+    text-decoration: none;
+}  
+@media screen and (min-width: 576px) {
+    .section2 .container .pokemons {
+        gap: 18px;
+    } 
+}
+/* Bgs pokemons */
+.normal {
+    background-color: #a6a877
+}
+
+.grass {
+    background-color: #77c850
+}
+
+.fire {
+    background-color: #ee7f30
+}
+
+.water {
+    background-color: #68d5d7
+}
+
+.electric{
+    background-color: #f7cf2e
+}  
+
+.ice {
+    background-color:#98d5d7
+}   
+
+.ground {
+    background-color: #dfbf69
+}
+
+.flying {
+    background-color: #a98ff0
+}
+
+.poison {
+    background-color: #a040a0
+}
+
+.fighting {
+    background-color: #bf3029
+}
+
+.psychic {
+    background-color: #f65687
+}
+
+.dark { 
+    background-color: #725847
+}
+
+.rock {
+    background-color: #b8a137
+}
+
+.bug {
+    background-color: #a8b720
+}
+
+.ghost {
+    background-color: #6e5896
+}
+
+.steel {
+    background-color: #b9b7cf
+}
+
+.dragon {
+    background-color: #6f38f6
+}
+
+.fairy {
+    background-color: #f9aec7
+}
+
+.section2 .container .pokemons .pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+    gap: 4px;
+
+    width: 102px;
+    height: 102px;
+
+
+    border-radius: 8px;
+
+    cursor: pointer;
+} 
+
+@media screen and (min-width: 576px) {
+    .section2 .container .pokemons .pokemon {
+        width: 112px;
+        height: 112px;
+        gap: 0px;
+        padding: 14px 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section2 .container .pokemons .pokemon {
+        width: 212px;
+        height: 212px;
+        gap: 0px;
+        padding: 14px 0px;
+    }
+}
+
+.section2 .container .pokemons .pokemon .number {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    margin-right: 12px;
+
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 992px) {
+    .section2 .container .pokemons .pokemon .number{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;  
+
+        margin-right: 16px;
+    }
+    
+}
+
+.section2 .container .pokemons .pokemon .img-pokemon {
+    width: 62px;
+    height: 62px;
+}
+
+.pagination {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.pagination #loadmore {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding: 12px 12px;
+    
+    width: 137px;
+    height: 20px;
+    
+    border: 0;
+    border-radius: 10px;
+    background-color:  #212121;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (min-width: 576px) {
+    .section2 .container .pokemons .pokemon .img-pokemon {
+        width: 82px;
+        height: 82px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section2 .container .pokemons .pokemon .img-pokemon {
+        width: 142px;
+        height: 142px;
+    }
+}
+
+.section2 .container .pokemons .pokemon .name {
+    display: flex;
+    align-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 992px) {
+    .section2 .container .pokemons .pokemon .name {
+        font-size: 20px; 
+    }
+}
